@@ -1,0 +1,7 @@
+body {
+  background: url("/static/images/SugarbirdBG.jpg") repeat; }
+
+.line-two {
+  color: tomato; }
+  .line-two p {
+    font-size: 5px; }
