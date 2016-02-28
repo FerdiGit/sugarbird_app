@@ -30,17 +30,20 @@ gulp.task("compileSass", function(){
 });
 
 gulp.task("watchFiles", function(){
+  'use strict';
   gulp.watch("public/stylesheets/scss/**/*.scss", ['compileSass']);
   gulp.watch("public/javascripts/main.js", ['concatScripts']);
 });
 
 gulp.task('clean', function(){
+  'use strict';
   del(['dist',
        'public/stylesheets/css/application.css*',
        'public/javascripts/scripts*.js*']);
 });
 
 gulp.task("build", ['minifyScripts', 'compileSass'], function(){
+  'use stict';
   return gulp.src(["public/stylesheets/css/**",
                    "public/javascripts/scripts.min.js",
                    "views/*.jade",
@@ -52,5 +55,6 @@ gulp.task("build", ['minifyScripts', 'compileSass'], function(){
 gulp.task('serve', ['watchFiles']);
 
 gulp.task("default", ["clean"], function(){
+  'use strict';
   gulp.start('build');
 });
