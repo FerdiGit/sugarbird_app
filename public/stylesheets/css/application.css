@@ -2,6 +2,6 @@ body {
   background: url("/static/images/SugarbirdBG.jpg") repeat; }
 
 .line-two {
-  color: blue; }
+  color: green; }
   .line-two p {
-    font-size: 5px; }
+    font-size: 10px; }
