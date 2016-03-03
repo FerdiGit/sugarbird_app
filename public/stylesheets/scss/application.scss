@@ -1,1 +1,11 @@
+// Modules and Varialbes
 @import 'base/base';
+@import 'base/variables';
+@import 'base/normalize';
+@import 'base/typography';
+
+// Layout Styles
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/page';
+@import 'layout/footer';

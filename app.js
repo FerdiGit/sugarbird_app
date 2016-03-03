@@ -45,11 +45,10 @@ app.post('/', function(req, res){
   smtpTrans.sendMail(mailOpts, function(error, info){
     // Email not sent
     if (error) {
-      res.render('contact', { msg: 'Error occured, message not sent.',
+      res.render('index', { msg: 'Error occured, message not sent.',
                               err: true, page: 'contact' });
     } else {
-      console.log('message Sent'+info.response);
-      res.render('contact', { msg: 'Message sent! Thank you.',
+      res.render('index', { msg: 'Message sent! Thank you.',
                               err: false, page: 'contact'});
     }
   });

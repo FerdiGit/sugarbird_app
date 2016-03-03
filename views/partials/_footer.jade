@@ -1,19 +1,22 @@
 footer
-  h1 Contact Form
-    form(action='/contact', name='contactme', id='contactme', method='post')
+  .container#primary
+    li.phone
+      a(href="tel:07931-393718") 07931 393718
+  .container#secondary
+    form(action='/', name='contactme', id='contactme', method='post')
       fieldset
         p.form_name
-          label(for='name') Name:
+          label(for='name') Name
           br
           input(name='name', type='text', value='', id='name')
         p
-          label(for='email') Email:
+          label(for='email') Email
           br
           input(name='email', type='text', value='', id='email')
         p
-          label(for='message') Message:
+          label(for='message') Message
           br
-          textarea(name='message', cols='40', rows='10', id='message')
+          textarea(name='message', id='message')
         p
           input(name='submit', type='submit', value='Send', id='submit')
           if(typeof msg !== 'undefined')
@@ -21,3 +24,4 @@ footer
               div(class='msgbox err') #{msg}
             else
               div(class='msgbox success') #{msg}
+      p &copy; 2015 Kim Pretorius
