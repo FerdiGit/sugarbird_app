@@ -1,3 +1,101 @@
 body {
   background-color: $secondary-color;
 }
+// logo
+#logo{
+  color: $primary_color;
+  padding-bottom: 49px;
+  h1{
+    font-family: $gloria;
+    position: absolute;
+    font-size: 2.2em;
+    top: -1em;
+    left: 3.8em;}
+  h2{
+    font-family: $gloria;
+    position: absolute;
+    font-size: 1.6em;
+    top: 1em;
+    left: 5.5em;}
+  img{
+    position: absolute;
+    width: 8em;
+    top: .2em;
+    left: .2em; } }
+
+.container p{
+  color: $primary_color;
+}
+.container{
+  .line-one{
+    p{
+      font-size: 6em;
+      margin-bottom: -50px;
+      font-family: $sigmar-one; } }
+  .line-two{
+    p{
+      font-size: 5em;
+      font-family: $sigmar-one; } }
+  .line-three{
+    p{
+      font-size: 4em;
+      font-family: $gloria; } }
+  .line-four{
+    p{
+      font-size: 5em;
+      font-family: $marck; } }
+  .line-five{
+    p{
+      font-size: 3em;
+      font-family: $gloria; } }
+  .line-six{
+    img{
+      width: .8em; }
+    p{
+    font-size: 5em;
+    font-family: $sigmar-one; } }
+  .line-seven{
+    img{
+      width: 2em;
+      vertical-align: middle;
+      padding-left: .5em; }
+    p{
+      font-size: 2.5em;
+      font-family: $gloria; } }
+  #cupcakes{
+    padding-top: 3em;
+    p{
+      font-size: 4em;
+      font-family: $reenie; } }
+  #cakes{
+    padding-top: 3em;
+    img{
+      width: 20em; }
+    p{
+      font-size: 4em;
+      font-family: $reenie; } }
+  #wedding-cakes{
+    padding-top: 3em;
+    img{
+      width: 15em; }
+    p{
+      font-size: 4em;
+      font-family: $reenie; } }
+  #treats{
+    padding-top: 3em;
+    img{
+      width: 20em; }
+    p{
+      font-size: 4em;
+      font-family: $reenie; } }
+
+  .line-eight{
+      color: $primary_color;
+      font-size: 3em;
+      line-height: 1.5em;
+      font-family: $gloria; }
+  .line-nine{
+      color: $primary_color;
+      font-size: 3em;
+      font-family: $reenie; }
+}

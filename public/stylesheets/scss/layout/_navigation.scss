@@ -5,7 +5,7 @@
     margin: 0;
     & li > a {
       text-decoration: none;
-      background-color: $primary-color;
+      background-color: $primary_color;
       color: #fff;
       display: block;
       padding: .2em 1em .2em .5em;
@@ -14,7 +14,8 @@
       border-radius: 0 1em 1em 0;
       -webkit-box-shadow: 0px 10px 5px -7px rgba(0,0,0,0.75);
       -moz-box-shadow: 0px 10px 5px -7px rgba(0,0,0,0.75);
-      box-shadow: 0px 10px 5px -7px rgba(0,0,0,0.75);}
+      box-shadow: 0px 10px 5px -7px rgba(0,0,0,0.75);
+      font-family: $gloria;}
     & li > a:hover {
       background-color: darken($primary-color, 5%);
     } }
@@ -26,15 +27,18 @@
     bottom: calc(50% - 57px); } }
 
 .slicknav_menu {
-  background-color: $tertiary-color;
+  background-color: $tertiary_color;
+  color: $primary_color;
   position: fixed;
   width: 100%;
   -webkit-box-shadow: 0px 30px 24px -25px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 30px 24px -25px rgba(0,0,0,0.75);
   box-shadow: 0px 30px 24px -25px rgba(0,0,0,0.75);
-  & a{
+  .slicknav_nav a {
+    color: $secondary_color;
     text-align: center;
-    border-radius: .1em; }
+    border-radius: .1em;
+    font-family: $gloria;}
   & .slicknav_btn {
     background-color: $tertiary-color; }
   @media screen and ( min-width: 768px ) {
