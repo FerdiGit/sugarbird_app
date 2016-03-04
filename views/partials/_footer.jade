@@ -1,27 +1,28 @@
 footer
-  .container#primary
-    li.phone
-      a(href="tel:07931-393718") 07931 393718
-  .container#secondary
+  .container
+    .phone
+      p CALL ME ON
+      a(href="tel:07931-393718") - 07931 393718 -
+      p OR FILL OUT THE FORM BELOW
     form(action='/', name='contactme', id='contactme', method='post')
       fieldset
         p.form_name
-          label(for='name') Name
+          label(for='name') NAME
           br
           input(name='name', type='text', value='', id='name')
         p
-          label(for='email') Email
+          label(for='email') EMAIL
           br
           input(name='email', type='text', value='', id='email')
         p
-          label(for='message') Message
+          label(for='message') MESSAGE
           br
           textarea(name='message', id='message')
         p
-          input(name='submit', type='submit', value='Send', id='submit')
+          input(name='submit', type='submit', value='SEND', id='submit')
           if(typeof msg !== 'undefined')
             if(!!err)
               div(class='msgbox err') #{msg}
             else
               div(class='msgbox success') #{msg}
-      p &copy; 2015 Kim Pretorius
+      p#copyright &copy; 2015 Kim Pretorius

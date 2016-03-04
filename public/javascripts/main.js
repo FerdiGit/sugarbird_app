@@ -1,5 +1,6 @@
-$('.container').click(function(){
-  console.log("Fly you fools!");
+$(function(){
+  $('#menu').slicknav({
+    label: '',
+    closeOnClick: 'false'
+  });
 });
-
-console.log("does this even work?");
