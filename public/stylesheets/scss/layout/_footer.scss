@@ -22,7 +22,8 @@ footer {
     input, textarea {
       border-radius: .2em;
       border: 2px solid #fff;
-      padding: .5em; }
+      padding: .5em;
+      font-family: $lato;}
     // Seperating input fields with some margin
     p {
       margin-top: .8em;
@@ -42,6 +43,7 @@ footer {
       #submit:hover {
         background-color: darken($primary-color, 5%); } }
   // Set width and center footer content
+  
   input,
   textarea {
     width: 70%;

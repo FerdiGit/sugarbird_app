@@ -11511,9 +11511,11 @@ return jQuery;
     };
 }(jQuery, document, window));
 
-$(function(){
-  $('#menu').slicknav({
-    label: '',
-    closeOnClick: 'false'
+$(document).ready( function() {
+  $(function(){
+    $('#menu').slicknav({
+      label: '',
+      closeOnClick: 'false'
+    });
   });
 });

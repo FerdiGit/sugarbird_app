@@ -1,7 +1,7 @@
 extends ./layout.jade
 
 block content
-  .container
+  .container#top-of-page
     #logo
       h1 SUGARBIRD
       h2 Gluten-Free Baking
@@ -19,7 +19,7 @@ block content
       img(src='/static/images/england_map.png', alt='buckinghamshire')
     .line-five
       p BUCKINGHAMSHIRE
-    .line-six
+    .line-six#my-work
       p
         | I 
         img(src='/static/images/heart_svg.svg', alt='love')
@@ -41,12 +41,14 @@ block content
       p AS WELL AS 
       p ~ OTHER TREATS ~
       img(src='/static/images/treat.png', alt='other treats')
-    a(href='#')
+    a(href='https://www.facebook.com/SugarbirdBaking')
       .line-eight
         p
         | YOU CAN FIND
         | SOME EXAMPLES
         | HERE
+        br
+        img(src='/static/images/FB-f-Logo__blue_144.png', alt='other treats')
     br
     .line-nine
       p

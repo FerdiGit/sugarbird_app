@@ -10,6 +10,7 @@ gulp.task("concatScripts", function() {
   return gulp.src([
     'public/javascripts/jquery.js',
     'public/javascripts/jquery.slicknav.js',
+    'public/javascripts/jquery.smint.js',
     'public/javascripts/main.js'])
   .pipe(concat("scripts.js"))
   .pipe(gulp.dest("public/javascripts"));

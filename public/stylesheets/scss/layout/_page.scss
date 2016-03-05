@@ -93,7 +93,10 @@ body {
       color: $primary_color;
       font-size: 3em;
       line-height: 1.5em;
-      font-family: $gloria; }
+      font-family: $gloria;
+      img{
+        width: 2em;
+      } }
   .line-nine{
       color: $primary_color;
       font-size: 3em;

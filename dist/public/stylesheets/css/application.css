@@ -670,6 +670,8 @@ body {
   font-size: 3em;
   line-height: 1.5em;
   font-family: "Gloria Hallelujah", cursive; }
+  .container .line-eight img {
+    width: 2em; }
 
 .container .line-nine {
   color: #2a5663;
@@ -696,7 +698,8 @@ footer {
     footer #contactme > fieldset input, footer #contactme > fieldset textarea {
       border-radius: .2em;
       border: 2px solid #fff;
-      padding: .5em; }
+      padding: .5em;
+      font-family: "Lato", sans-serif; }
     footer #contactme > fieldset p {
       margin-top: .8em; }
       footer #contactme > fieldset p > label {
